@@ -1,0 +1,370 @@
+body {
+    background-image: linear-gradient(black, grey);
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+/* 
+.twoguys {
+    
+} */
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 70%;
+
+}
+
+.indexpage {
+    padding-bottom: 10.3%;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.heading{
+    font-size: 4rem;
+    margin-top: 8%;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.imgindex img {
+    position: absolute;
+    left: 60%;
+    bottom: 40%;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.toptext {
+    display: flex;
+    justify-content:center;
+    margin-right: 33%;
+    font-size: 1.5rem;
+}
+
+.mainimg img {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.rightimgs img {
+    display: flex;
+    width: 450px;
+    padding-left: 130%;
+    margin-top: 9%;
+}
+
+.all {
+    display: flex;
+}
+
+.linkmain {
+    display: flex;
+    font-size: 2rem;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.link1 {
+margin-right: 40px;
+}
+
+.link2 {
+margin-right: 40px;
+}
+
+.bottomtext {
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 170px;
+
+}
+
+.topimgtrion img{
+width: 100%;
+}
+
+.img-scroller-calc {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    width: max-content; /* Ensures the container fits all images */
+}
+
+.calc-imgs {
+display: flex;
+}
+.sidebar {
+    overflow: hidden;
+    width: 100%; /* Adjust width as needed */
+    position: relative;
+}
+
+.image-scroller {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    width: max-content; /* Ensures the container fits all images */
+}
+
+.image-scroller img {
+    width: 1300px; /* Adjust image size */
+    height: auto;
+    margin-left: 400px;
+    flex-shrink: 0;
+}
+
+.trion {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.linksbottom {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.topimgcalc img {
+    width: 100%;
+}
+
+.topimgcalc {
+    display: flex;
+    justify-content: center;
+}
+
+.carrer img {
+    width: 50%;
+    
+}
+.carrer {
+    display: flex;
+    justify-content: center;
+    margin-left: 320px;
+}
+
+.taxes img {
+    width: 50%;
+
+}
+
+.taxes {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 20%;
+margin-left: 600px;
+}
+
+
+
+.twopics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textcalc {
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 150px;
+}
+
+.topimgdivine img {
+display: flex;
+width: 100%;
+}
+
+.firstdivine img {
+display: flex;
+width: 50%;
+justify-content: flex-start;
+}
+
+.seconddivine img {
+display: flex;
+width: 50%;
+}
+
+.firstdivine {
+    display: flex; 
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.seconddivine {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-start;
+     display: inline-block;
+    background-color: grey;
+    font-size: 1.318rem;
+    padding-right: 10%;
+    padding-bottom: 25px;
+
+}
+
+.resumebody {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.one-3para {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.onepara {
+    background-color: rgb(100, 100, 100, 70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+}
+
+.twopara {
+    background-color: rgb(100, 100, 100, 70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+}
+
+
+.oneparaaboutme {
+    background-color: rgb(100, 100, 100, 70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    margin-top: 10%;
+    display: inline-block;
+    padding-right: 3%;
+}
+
+.twoparaaboutme {
+    background-color: rgb(100, 100, 100, 70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.threepara {
+    background-color: rgb(100, 100, 100, 70%);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+}
+.linksresume {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row ;
+}
+
+.Jobs {
+    font-size: 2.5rem;
+    background-color: grey;
+    padding-left: 50px;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+.people {
+    font-size: 2.5rem;
+    background-color: grey;
+    padding-left: 100px;
+    padding-right: 120px;
+    padding-top: 20px;
+    margin-left: -5%;
+}
+
+.wholepagecontact {
+display: flex;
+flex-direction: column;
+}
+
+.footcontact {
+    margin-top:14.8%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+.toptext2 {
+display: flex;
+font-size: 1.5rem;
+justify-content: space-evenly;
+margin-right: 15%;
+margin-top: 10%;
+}
+.infocontact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.secondtextcontact {
+    margin-right: -20%;
+}
+
+.stuff {
+    font-size: 1.5rem;
+}
+
+.aboutmepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksbottomaboutme {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 8.6%;
+}
